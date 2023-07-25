@@ -17,7 +17,7 @@ class Login extends StatelessWidget {
         leading: const Icon(Icons.person_2_outlined, size: 30),
         title: const Text(
           style: TextStyle(
-            color: Color.fromARGB(255, 255, 255, 255),
+            color: Colors.white,
             fontSize: 20,
           ),
           "LOGIN",
@@ -55,7 +55,7 @@ class Login extends StatelessWidget {
                         },
                       ),
                       const SizedBox(
-                        height: 18,
+                        height: 20.5,
                       ),
                       InputForm(
                         label: "Contraseña",
@@ -71,7 +71,7 @@ class Login extends StatelessWidget {
                         },
                       ),
                       const SizedBox(
-                        height: 18,
+                        height: 20.5,
                       ),
                     ],
                   ),
@@ -88,7 +88,7 @@ class Login extends StatelessWidget {
                   "Iniciar Sesión",
                   style: TextStyle(
                     color: Color.fromARGB(255, 255, 255, 255),
-                    fontSize: 17,
+                    fontSize: 18,
                   ),
                 ),
               ),
@@ -108,7 +108,7 @@ class Login extends StatelessWidget {
         ScaffoldMessenger.of(context).showSnackBar(
           const SnackBar(
             content: Text("Correo o contraseña INCORRECTOS."),
-            duration: Duration(seconds: 3),
+            duration: Duration(seconds: 5),
           ),
         );
       }
