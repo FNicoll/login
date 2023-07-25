@@ -11,14 +11,14 @@ class Inicio extends StatelessWidget {
           centerTitle: true,
         ),
         body: Container(
-            color: const Color.fromARGB(255, 169, 213, 249),
+            color: const Color.fromARGB(255, 201, 231, 254),
             child: const Padding(
               padding: EdgeInsets.all(8.0),
               child: Center(
                   child: Text(
-                'WELCOME',
+                'Bienvenido, ha ingresado correctamente.',
                 style: TextStyle(
-                  color: Colors.white,
+                  color: Colors.black,
                   fontSize: 28,
                   fontWeight: FontWeight.bold,
                 ),
